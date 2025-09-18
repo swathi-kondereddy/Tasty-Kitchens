@@ -1,10 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+
+
+import {BrowserRouter} from 'react-router-dom'
+
+import Setup from './Tasty-Kitechn/setup';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div >
+   
+      <BrowserRouter>
+       
+      <Setup/>
+      {/* <Switch>
+       <Route exact path="/login" component={LoginForm}/>
+         {/* <Header/> */}
+       {/* <Route exact path="/" component={Home}/>
+       <Route exact path ="/cart" component={Cart}/>
+       <Route exact path="*" component={NotFound}/>
+       </Switch> */} 
+      </BrowserRouter>
+     
+      {/* <Applies/> */}
+      {/* <h1>swathikondreddy</h1> */}
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +36,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
