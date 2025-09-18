@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+🍴 Tasty Kitchens App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tasty Kitchens is a food ordering web application built using React.js.
+It demonstrates concepts like authentication, routing, state management, context, lifecycle methods, API integration, and responsiveness.
 
-## Available Scripts
+This project was developed as part of the React course assessment.
 
-In the project directory, you can run:
+🚀 Features
 
-### `npm start`
+🔐 Authentication
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Login using credentials
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+JWT Token stored securely in cookies
 
-### `npm test`
+🍔 Food Menu
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Fetches restaurant data from API
 
-### `npm run build`
+Displays list of food items with images, cost, and rating
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🛒 Cart Management
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Add / Remove food items
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Update quantity of items
 
-### `npm run eject`
+Displays cart summary with total cost
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📱 Responsive Design
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Optimized for Desktop and Mobile views
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🌐 Routing & Navigation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+React Router for navigation between pages
 
-## Learn More
+Protected routes for authenticated users
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🛠️ Tech Stack
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Frontend: React.js (Class Components + Hooks)
 
-### Code Splitting
+State Management: React Context API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Routing: React Router DOM
 
-### Analyzing the Bundle Size
+Authentication: JWT with js-cookie
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Styling: CSS3 (Responsive design)
 
-### Making a Progressive Web App
+Deployment: (you can add Netlify/Vercel/GitHub Pages)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📸 Screenshots
 
-### Advanced Configuration
+(Add some screenshots after running the app locally)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+⚡ Installation & Setup
 
-### Deployment
+Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+git clone https://github.com/swathi-kondereddy/Tasty-Kitchens.git
+cd Tasty-Kitchens
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm start
+
+
+Open in browser:
+
+http://localhost:3000
+
+🔑 Login Credentials
+
+Use the following test credentials to log in:
+
+Username: rahul
+
+Password: rahul@2021
+
+📚 Concepts Practiced
+
+Component Lifecycle Methods (componentDidMount)
+
+API Fetching & Handling Async Calls
+
+Conditional Rendering
+
+React Router & Protected Routes
+
+Context API for Global State Management
+
+Authentication & Authorization using JWT
+
+Responsive CSS Design
+
+👩‍💻 Author
+
+Kondreddy Swathi
